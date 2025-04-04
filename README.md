@@ -9,3 +9,5 @@ Bu sayede site, SEO dostu ve hızlı yüklenebilir.
 
 
 ## Ekran Gıf
+
+![Video Screen1743802650866 (1)](https://github.com/user-attachments/assets/dc97e139-ef9c-4a0e-b68c-39c5a61eaace)
