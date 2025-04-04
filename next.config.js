@@ -1,8 +1,13 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
     images: {
-        domains: ["firebasestorage.googleapis.com"]
-    }
-}
-
-module.exports = nextConfig
+      domains: [
+        '9to5mac.com', 
+        's13emagst.akamaized.net', 
+        'cdn.vatanbilgisayar.com', 
+        'smartwatchchart.com', 
+        'lh3.googleusercontent.com', // Kullanıcı avatarları için
+        'm.media-amazon.com' // Yeni eklenen Amazon görselleri için
+      ],
+    },
+  };
+  

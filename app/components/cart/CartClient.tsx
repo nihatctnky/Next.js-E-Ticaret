@@ -12,7 +12,9 @@ const CartClient = () => {
 
     console.log(cartPrdcts, "cartPrdcts")
     if(!cartPrdcts || cartPrdcts.length == 0){
-        return <div>Sepetinizde ürün bulunmamaktadır...</div>
+        return <div className="text-center mt-60 text-2xl  p-10 w-3/34rounded-lg text-red-500">
+        Sepetinizde ürün bulunmamaktadır...
+      </div>
     }
 
     let cartPrdctsTotal = cartPrdcts.reduce((acc: any, item:CardProductProps) => acc + item.quantity * item.price,0)
